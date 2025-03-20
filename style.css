@@ -436,6 +436,99 @@ body {
     border: 1px solid white;
 }
 
+.rsvp .comment-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* width: 400px; */
+    /* margin-left: 50px; */
+    /* height: 100px; */
+}
+
+.rsvp .comment-box h2{
+    font-size: 2rem;
+    font-family: "Work", serif;
+    font-weight: lighter;
+}
+
+.rsvp h3 {
+    color: var(--pink);
+    font-size: 2rem;
+    font-family: "Work", serif;
+}
+
+.rsvp .comment-form{
+    padding: 10px;
+}
+
+.rsvp input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.rsvp textarea {
+    height: 100px;
+}
+
+.rsvp .comment-box button{
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.rsvp #commentsList {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.rsvp #commentsList li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.rsvp #commentsList li strong {
+    color: var(--pink);
+}
+
+.rsvp .reply-section {
+    margin-top: 40px;
+    margin-left: 20px;
+    border-left: 2px solid #ccc;
+    padding: 10px;
+}
+
+.rsvp .reply-section input[type="text"] {
+    width: calc(100% - 90px);
+    margin-right: 10px;
+}
+
+.rsvp .reply-section button {
+    width: 70px;
+    
+}
+
+.rsvp .delete-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.rsvp .delete-btn:hover {
+    background-color: #cc0000;
+}
+
 /* gifts */
 
 .gifts {
